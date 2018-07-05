@@ -47,7 +47,7 @@ public class ArenaListeners implements Listener {
 			if(arena != null) {
 				arena.eliminate(victime);
 			}
-			Location spawn = new Location(Bukkit.getWorld("ASkyBlock"), -66.5, 88, -7.5, -180, 0);
+			Location spawn = new Location(Bukkit.getWorld("spawn"), -66.5, 88, -7.5, -180, 0);
 			Player p = killer.getPlayer();
 			Player p2 = victime.getPlayer();
 			p.teleport(spawn);
