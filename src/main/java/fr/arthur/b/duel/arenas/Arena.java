@@ -17,7 +17,7 @@ public class Arena {
 	public Arena(Location loc1, Location loc2) {
 		this.loc1 = loc1;
 		this.loc2 = loc2;
-		this.players = new ArrayList<>();
+		this.players = new ArrayList<Player>();
 		this.isStarted = false;
 	}
 	
@@ -44,7 +44,7 @@ public class Arena {
 		if(players.size() == 1)
 		{
 			Player winner = players.get(0);
-			Bukkit.broadcastMessage("§7[§aIs§2M§8Duel§7] §a"  + winner.getName() + "§7 a gagné le combat!");
+			Bukkit.broadcastMessage("Â§7[Â§aIsÂ§2MÂ§8DuelÂ§7] Â§a"  + winner.getName() + "Â§7 Ã  gagnÃ© le combat!");
 			//Player player = ((Player) winner).getPlayer();
 			//player.teleport(loc1);
 			restart();
@@ -53,7 +53,7 @@ public class Arena {
 	}
 
 	private void restart() {
-		this.players = new ArrayList<>();
+		this.players = new ArrayList<Player>();
 		this.isStarted = false;
 		
 	}

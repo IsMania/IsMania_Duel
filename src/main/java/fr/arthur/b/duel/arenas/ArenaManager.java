@@ -7,12 +7,13 @@ import org.bukkit.entity.Player;
 
 public class ArenaManager {
 	
-	private List<Arena> arenas = new ArrayList<>();
+	private List<Arena> arenas = new ArrayList<Arena>();
 	
 	public void addArena(Arena arena) {
 		this.arenas.add(arena);
 		
 	}
+	
 	public void joinArena(Player firstPlayer, Player secondPlayer) {
 		
 		Arena nextArena = getNextArena();
@@ -27,8 +28,8 @@ public class ArenaManager {
 		}
 		else
 		{
-			firstPlayer.sendMessage("§7[§aIs§2M§8Duel§7] §cL'arène est occupée, attendez votre tour !");
-			secondPlayer.sendMessage("§7[§aIs§2M§8Duel§7] §cL'arène est occupée, attendez votre tour !");
+			firstPlayer.sendMessage("Â§7[Â§aIsÂ§2MÂ§8DuelÂ§7] Â§cL'arÃ¨ne est occupÃ©e, attendez votre tour !");
+			secondPlayer.sendMessage("Â§7[Â§aIsÂ§2MÂ§8DuelÂ§7] Â§cL'arÃ¨ne est occupÃ©e, attendez votre tour !");
 		}
 		
 	}
@@ -41,7 +42,9 @@ public class ArenaManager {
 				return arena;
 			}
 		}
+		
 		return null;
+		
 	}
 	private Arena getNextArena() {
 		
@@ -59,6 +62,5 @@ public class ArenaManager {
 	public List<Arena> getArenas() {
 		return arenas;
 	}
-	
 	
 }
