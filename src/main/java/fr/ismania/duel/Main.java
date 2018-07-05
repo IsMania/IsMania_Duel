@@ -198,7 +198,7 @@ public class Main extends JavaPlugin {
 		double y = Double.valueOf(parsedLoc[1]);
 		double z = Double.valueOf(parsedLoc[2]);
 
-		return new Location(Bukkit.getWorld("ASkyBlock"), x,y,z); 
+		return new Location(Bukkit.getWorld("spawn"), x,y,z); 
 	}
 	public String unparsedLocToString(Location loc) {
 		return loc.getX() + "," + loc.getY() + "," + loc.getZ();
