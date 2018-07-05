@@ -1,4 +1,4 @@
-package fr.arthur.b.duel;
+package fr.ismania.duel;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,9 +15,9 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import fr.arthur.b.duel.arenas.Arena;
-import fr.arthur.b.duel.arenas.ArenaListeners;
-import fr.arthur.b.duel.arenas.ArenaManager;
+import fr.simania.duel.arenas.Arena;
+import fr.simania.duel.arenas.ArenaListeners;
+import fr.simania.duel.arenas.ArenaManager;
 
 public class Main extends JavaPlugin {
 

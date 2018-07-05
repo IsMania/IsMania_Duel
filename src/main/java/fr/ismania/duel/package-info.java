@@ -5,4 +5,4 @@
  * @author Arthur
  *
  */
-package fr.arthur.b.duel;
+package fr.ismania.duel;

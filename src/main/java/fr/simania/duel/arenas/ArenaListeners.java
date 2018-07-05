@@ -1,4 +1,4 @@
-package fr.arthur.b.duel.arenas;
+package fr.simania.duel.arenas;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -9,7 +9,7 @@ import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import fr.arthur.b.duel.Main;
+import fr.ismania.duel.Main;
 
 public class ArenaListeners implements Listener {
 

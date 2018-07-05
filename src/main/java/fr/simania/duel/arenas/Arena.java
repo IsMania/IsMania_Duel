@@ -1,4 +1,4 @@
-package fr.arthur.b.duel.arenas;
+package fr.simania.duel.arenas;
 
 import java.util.ArrayList;
 import java.util.List;
